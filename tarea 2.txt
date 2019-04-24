@@ -1,0 +1,296 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7//
+///////////////////////////////////////////primer problema//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	int a = 0,b = 0,c = 0,r = 0,s = 0,t = 0,x = 0;
+	
+		printf("primer_valor:");
+		
+		scanf("%d", &a);
+		
+		printf("segundo_valor:");
+		
+		scanf("%d", &b);
+		
+		printf("tercer_valor:");
+		
+		scanf("%d", &c);
+		
+		r = a - b;
+		s = b - c;
+		t = a - c;
+		x = r - s - t;
+		
+	if (x == 0){
+		printf("iguales");
+}
+	else{
+		printf("diferentes");
+}
+	
+	return 0;
+}
+*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////segundo_problema///////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.hZ
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	int a = 0,b = 0,c = 0,r = 0,s = 0,t = 0,x = 0;
+	
+		printf("primer_valor:");
+		
+		scanf("%d", &a);
+		
+		printf("segundo_valor:");
+		
+		scanf("%d", &b);
+		
+		printf("tercer_valor:");
+		
+		scanf("%d", &c);
+		
+		r = a - b;
+		s = b - c;
+		t = a - c;
+		x = r - s - t;
+		
+	if (r == 0 && x != 0){
+		printf("dos son iguales");
+}
+	if(s == 0 && x != 0){
+		printf("dos son iguales");
+}
+	if(t == 0 && x != 0){
+		printf("dos son iguales");
+}
+	if(r == 0 && s == 0 && t == 0 && x == 0){
+		printf("todos son iguales");
+}
+	if(r != 0 && s != 0 && t != 0 && x != 0){
+		printf("todos son diferentes");
+}
+	return 0;
+}
+*/
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////tercer problema////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	char b;
+	char c = 'a';
+	char d = 'A';
+	int e = 7;
+	
+	printf("escribe una letra:");
+	scanf("%c", &b);
+	
+	if(b == c ||b == d){
+		
+	printf("numero diferente de cero:%d", e);
+	
+	}
+	return 0;
+}*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////77
+//////////////////////////////////////////////////cuarto problema////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	int x,y,z;
+	int a = 6;
+	
+	printf("escribe valor de la variable x:");
+	scanf("%d", &x);
+	printf("escribe valor de la variable y:");
+	scanf("%d", &y);
+	printf("escribe valor de la variable z:");
+	scanf("%d", &z);
+	
+	if(x > y && x > z){
+		printf("valor diferente de cero:%d", a);
+	}
+		
+	return 0;
+}*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////quinto problema/////////////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	int a,c;
+	int x = 5;
+	
+	printf("escribe numero:");
+	scanf("%d", &a);
+	
+	c = a%2;
+	
+	if(c > 0){
+		printf("numero diferente de cero:%d", x);
+	}
+	else{
+		printf("numero par");
+			
+	}
+		
+	return 0;
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////sexto problema/////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	int x,y,z;
+	int c = 5;
+	
+	printf("escribe numero x:");
+	scanf("%d", &x);
+	printf("escribe numero y:");
+	scanf("%d", &y);
+	
+	z = y%x;
+	
+	if(z == 0){
+		printf("numero diferente de cero:%d", c);
+	}
+	else{
+		printf("numero no multiplo");
+	}
+		
+	return 0;
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////septimo problema/////////////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv) {
+	
+	int s;
+	int l_1,l_2,l_3;
+	int preci = 5;
+	float prom;
+	int cost = 2;
+	float ganan;
+	int norma = 300;
+	float porcent;
+	
+	printf("produccion linea 1:");
+	scanf("%d", &l_1);
+	printf("produccion linea 2:");
+	scanf("%d", &l_2);
+	printf("produccion linea 3:");
+	scanf("%d", &l_3);
+	
+	s = l_1 + l_2 + l_3;
+	prom = s/3;
+	porcent = (s*100)/norma;
+	ganan = (preci - cost)*s;
+	
+	printf("produccion promedio:%f\n", prom);
+	printf("la norma: %d\n", norma);
+	printf("porcentaje: %f\n", porcent);
+	printf("precio: %d\n", preci);
+	printf("costo: %d\n", cost);
+	printf("ganancia: %f\n", ganan);
+		
+	return 0;
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////octavo problema////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv){
+	
+	int a,b,c,d;
+	int z = 1;
+	
+	printf("numero_uno:");
+	scanf("%d", &a);
+	printf("numero_dos:");
+	scanf("%d", &b);
+	printf("numero_tres:");
+	scanf("%d", &c);
+	
+	d = (a + b + c)/3;
+	
+	if(a < 0 || b < 0 || c < 0){
+		printf("numero_diferente_de_cero:%d\n", z);	
+	}
+	if(a > 0 && b > 0 && c > 0){
+		printf("promedio:%d\n", d);
+	}
+	return 0;
+}
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////noveno programa////////////////////////////////////////////////////////////////////////////////////////
+/*
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char** argv){
+	
+	int v1,v2,v3,v4,v5,vt;
+	int s = 1000;
+	int d = 0;
+	float c;
+	
+	printf("venta_uno:");
+	scanf("%d", &v1);
+	printf("venta_dos:");
+	scanf("%d", &v2);
+	printf("venta_tres:");
+	scanf("%d", &v3);
+	printf("venta_cuatro:");
+	scanf("%d", &v4);
+	printf("venta_cinco:");
+	scanf("%d", &v5);
+	
+	vt = v1 + v2 + v3 + v4 + v5;
+	
+	c = (9*vt)/100;
+	
+	if (vt >= 1000){
+		printf("salario:%d\n", s);
+		printf("comision:%f\n", c);	
+	}
+	else{
+		printf("salario:%d\n", s);
+		printf("sin_comision:%d\n", d);
+	}
+	return 0;
+		
+}
+*/
